@@ -73,3 +73,7 @@
     font-size: inherit;
     font-weight: 400;
   }
+
+  .container {
+    width: 1400px;
+  }
