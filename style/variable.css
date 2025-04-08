@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Dudka";
+    src: url("../fonts/Dudka/DudkaRegular.eot") format("eot"),
+        url("../fonts/Dudka/DudkaRegular.woff") format("woff"),
+        url("../fonts/Dudka/DudkaRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/InterRegular.eot") format("eot"),
+        url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+        url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lorino";
+    src: url("../fonts/Lorino/LorinoRegular.eot") format("eot"),
+        url("../fonts/Lorino-RUS/Lorino RUS.woff") format("woff"),
+        url("../fonts/Lorino-RUS/Lorino RUS.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+:root {
+    --text-color: #F9B39D;
+    --primary-color: #F9B39D;
+    --secondary-color: #A72828;
+
+    --font-size-min: 16px;
+    --font-size-med: 24px;
+    --font-size-big: 36px;
+    --font-size-large: 100px;
+
+    --dudka: "Dudka", Arial, Sans-Serif;
+    --inter: "Inter", Arial, Sans-Serif;
+    --lorino: "Lorino", Arial, Sans-Serif;
+}
