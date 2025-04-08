@@ -74,6 +74,113 @@
     font-weight: 400;
   }
 
-  .container {
-    width: 1400px;
-  }
+p {
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #231E1E;
+}
+
+.container {
+  width: 1390px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 84px;
+}
+main h1 {
+  font-family: var(--dudka);
+  font-size: 165px;
+  color: var(--text-color);
+}
+main h2 {
+  font-family: var(--dudka);
+  font-size: 57px;
+  color: var(--text-color);
+  margin-top: 30px;
+}
+
+main p {
+  font-family: var(--lorino);
+  text-align: center;
+  font-size: var(--font-size-min);
+  width: 385px;
+  margin-top: 28px;
+}
+main .main-photo-but {
+  position: relative;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+.main-photo-but button {
+  position: absolute;
+  font-family: var(--dudka);
+  font-size: var(--font-size-med);
+  color: var(--secondary-color);
+  width: 306px;
+  height: 55px;
+  border-radius: 120px;
+  border: 4px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  margin-top: -28px;
+}
+
+.about {
+  margin-top: 137px;
+}
+.header {
+  font-family: var(--dudka);
+  font-size: var(--font-size-large);
+}
+.about .about-block {
+  margin-top: 58px;
+  width: 100%;
+  height: 603px;
+  border-radius: 40px;
+  border: 9px solid var(--primary-color);
+  display:flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px 0 12px;
+}
+.about-block img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  left: 0;
+  top: 0;
+}
+.about-block-year {
+  font-family: var(--dudka);
+  font-size: 126px;
+}
+.about-block .about-text {
+  width: 548px;
+  height: 195px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  border: 9px solid var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-block .about-text p {
+  width: 323px;
+  font-family: var(--inter);
+  color: var(--secondary-color);
+  font-size: var(--font-size-min);
+  text-align: center;
+  line-height: 20px;
+}
