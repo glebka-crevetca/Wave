@@ -86,6 +86,7 @@ body {
 
 .container {
   width: 1390px;
+  overflow: hidden;
 }
 
 main {

@@ -1,0 +1,126 @@
+.art {
+    margin-top: 137px;
+}
+
+.art-headers {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.second-header {
+    font-family: var(--dudka);
+    font-size: var(--font-size-big);
+}
+
+.wrap-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.wrap-line p {
+    font-family: var(--lorino);
+}
+.wrap-block {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap-block img {
+    width: 100%;
+}
+.wrap-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 0 0 0 4px;
+    font-size: var(--font-size-med);
+}
+.wrap-text {
+    font-size: var(--font-size-min);
+    margin-top: 8px;
+    left: 0;
+    line-height: 20px;
+}
+.art-1990-block-1-text {
+    width: 381px;
+}
+.art-1990-block-3-text {
+    width: 361px;
+}
+.art-1990-block-2 {
+    align-items: center;
+}
+.art-1990-block-2 p {
+    font-family: var(--dudka);
+    font-size: 134px;
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 
+        2px 2px 0 var(--primary-color), 
+        -2px -2px 0 var(--primary-color),
+        2px -2px 0 var(--primary-color),
+        -2px 2px 0 var(--primary-color);
+}
+
+.art-2000 {
+    margin-top: 130px;
+}
+.title {
+    line-height: 30px;
+}
+.art-2000 .wrap-line {
+    margin-top: 54px;
+}
+.art-2000-title .art-block-year {
+    padding: 36px 0 0 0;
+}
+.art-2000-block-1-text {
+    width: 315px;
+}
+.art-2000-block-2-text {
+    width: 300px;
+}
+.art-2000-block-3-text {
+    width: 317px;
+}
+
+.art-2010 {
+    margin-top: 130px;
+}
+.art-2010-block-1 .art-2010-title .art-block-year {
+    padding: 36px 0 0 0;
+}
+.art-2010-block-3 .art-2010-title .art-block-year {
+    padding: 36px 0 0 0;
+}
+.art-2010-block-1-text {
+    width: 329px;
+}
+.art-2010-block-2-text {
+    width: 374px;
+}
+.art-2010-block-3-text {
+    width: 375px;
+}
+
+.art-2010-line-2 {
+    margin-top: 90px;
+}
+.art-2010-block-5 {
+    align-items: center;
+}
+.art-2010-block-5 p {
+    font-family: var(--dudka);
+    font-size: 106px;
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 
+        2px 2px 0 var(--primary-color), 
+        -2px -2px 0 var(--primary-color),
+        2px -2px 0 var(--primary-color),
+        -2px 2px 0 var(--primary-color);
+}
